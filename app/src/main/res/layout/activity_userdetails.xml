@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userdetailsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl1"
+        android:background="@drawable/background"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:text="DeltaX"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/userName"
+            android:layout_below="@id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name: "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Nametxt"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/company"
+            android:layout_height="wrap_content"
+            android:text="Sandeep kumar"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/EmailIdtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:layout_alignParentRight="true"
+            android:text="sandeepkmr9696@gmail.com"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/EmailId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:text="Email Id:"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:layout_below="@id/EmailId"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Statustxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waiting for HR approval"
+            android:layout_below="@id/EmailId"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl1"
+        android:layout_margin="5dp"
+        android:background="@drawable/background"
+        >
+
+        <TextView
+            android:id="@+id/company1"
+            android:layout_width="wrap_content"
+            android:text="Nagarro"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/userName1"
+            android:layout_below="@id/company1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name: "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Nametxt1"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/company1"
+            android:layout_height="wrap_content"
+            android:text="Sandeep kumar"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/EmailIdtxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName1"
+            android:layout_alignParentRight="true"
+            android:text="sandeepkmr9696@gmail.com"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/EmailId1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName1"
+            android:text="Email Id:"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Status1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:layout_below="@id/EmailId1"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Statustxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waiting for HR approval"
+            android:layout_below="@id/EmailId1"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

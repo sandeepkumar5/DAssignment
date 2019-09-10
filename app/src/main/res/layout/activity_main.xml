@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#e8fbfc"
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true">
+        <EditText
+            android:id="@+id/userID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:background="#fafafa"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userID"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#fafafa"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/hrLoginbtn"
+            android:layout_width="match_parent"
+            android:layout_below="@id/userPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:text="HR Login"
+            android:textSize="20sp"
+            android:onClick="hrLogin"
+            android:padding="10dp"
+            android:background="@drawable/background1"/>
+        <TextView
+            android:id="@+id/userlogintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Login"
+            android:layout_below="@id/hrLoginbtn"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#030303"
+            />
+        <TextView
+            android:id="@+id/HRlogintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HR LOGIN"
+            android:visibility="gone"
+            android:layout_below="@id/hrLoginbtn"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="#030303"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

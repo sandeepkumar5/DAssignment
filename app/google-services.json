@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "944547939694",
+    "firebase_url": "https://dassignment-880e1.firebaseio.com",
+    "project_id": "dassignment-880e1",
+    "storage_bucket": "dassignment-880e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944547939694:android:84921fb54e54261cf5ed7f",
+        "android_client_info": {
+          "package_name": "com.sandeep.dassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944547939694-20p5jcstpjnccjm9tkkq1dg912dj46va.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandeep.dassignment",
+            "certificate_hash": "77f5197b239d96b0467bc67410fde904e675df9e"
+          }
+        },
+        {
+          "client_id": "944547939694-iqf7kbm7287p4uk4sa3ikhpjm924n423.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgFxO_HVzAgqPEL2BoruErv9rogT8ErhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944547939694-iqf7kbm7287p4uk4sa3ikhpjm924n423.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
